@@ -1,3 +1,4 @@
+#loads data
 import os
 import pandas as pd
 from src.etl.normaliser import normalize_year, normalize_ticker
