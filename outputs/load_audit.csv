@@ -1,0 +1,13 @@
+file_name,table_name,rows_loaded,status
+companies.xlsx,companies,92,success
+sectors.xlsx,sectors,92,success
+financial_ratios.xlsx,financial_ratios,0,failed: Execution failed
+balancesheet.xlsx,balance_sheet,0,failed: Execution failed
+profitandloss.xlsx,profit_loss,0,failed: Execution failed
+cashflow.xlsx,cash_flow,0,failed: Execution failed
+stock_prices.xlsx,stock_prices,5520,success
+market_cap.xlsx,market_cap,552,success
+peer_groups.xlsx,peer_groups,56,success
+documents.xlsx,documents,0,failed: Execution failed
+analysis.xlsx,analysis,0,failed: Execution failed
+prosandcons.xlsx,pros_cons,0,failed: Execution failed
