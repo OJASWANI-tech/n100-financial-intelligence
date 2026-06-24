@@ -1,7 +1,8 @@
-```python
+
 import sqlite3
 import pandas as pd
 import os
+import traceback
 
 # Connect database
 conn = sqlite3.connect("database/n100.db")
@@ -88,20 +89,30 @@ for file_name, table_name in files:
             df.dropna(how="all", inplace=True)
             df.drop_duplicates(inplace=True)
 
-            # Clean key fields
+            # Clean company_id
             if "company_id" in df.columns:
                 df["company_id"] = df["company_id"].astype(str).str.strip()
 
+                df["company_id"] = df["company_id"].replace({
+                     "AGTL": "ATGL"
+                })
+                valid_ids = pd.read_sql("SELECT id FROM companies", conn)["id"].tolist()
+                df = df[df["company_id"].isin(valid_ids)]
+
+
+
+            # Fix ID type
             if "id" in df.columns:
-                df["id"] = df["id"].astype(str).str.strip()
+                if table_name == "companies":
+                    # companies table uses TEXT ticker IDs
+                    df["id"] = df["id"].astype(str).str.strip()
+                else:
+                    # child tables use INTEGER IDs
+                    df["id"] = pd.to_numeric(df["id"], errors="coerce")
 
             # Get DB columns
             cursor = conn.execute(f"PRAGMA table_info({table_name})")
             db_columns = [row[1] for row in cursor.fetchall()]
-
-            # Drop ID only if DB does NOT expect it
-            if "id" in df.columns and "id" not in db_columns:
-                df = df.drop(columns=["id"])
 
             # Keep only matching columns
             df = df[[col for col in df.columns if col in db_columns]]
@@ -117,6 +128,9 @@ for file_name, table_name in files:
             # Insert into DB
             df.to_sql(table_name, conn, if_exists="append", index=False)
 
+            # Commit immediately
+            conn.commit()
+
             audit_log.append({
                 "file_name": file_name,
                 "table_name": table_name,
@@ -131,11 +145,11 @@ for file_name, table_name in files:
                 "file_name": file_name,
                 "table_name": table_name,
                 "rows_loaded": 0,
-                "status": f"failed: {str(e)}"
+                "status": f"failed: {repr(e)}"
             })
 
             print(f"\nFAILED FILE: {file_name}")
-            print("Actual error:", repr(e))
+            traceback.print_exc()
 
     else:
         audit_log.append({
@@ -176,8 +190,6 @@ else:
     print("\nFK Issues Found:")
     print(fk_check)
 
-conn.commit()
 conn.close()
 
 print("\nAll datasets processed successfully!")
-```
