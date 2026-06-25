@@ -74,3 +74,23 @@ def test_year_nov():
 
 def test_year_dec():
     assert normalize_year("Dec-24") == "2024-12"
+
+def test_normalize_ticker_lowercase():
+    assert normalize_ticker("reliance") == "RELIANCE"
+
+
+def test_normalize_ticker_spaces():
+    assert normalize_ticker("  BEL  ") == "BEL"
+
+
+def test_normalize_year_ttm():
+    assert normalize_year("TTM") == "TTM"
+
+
+def test_normalize_year_with_spaces():
+    assert normalize_year(" Mar 2024 ") == "Mar 2024"
+
+
+def test_normalize_year_none():
+    assert normalize_year(None) is None
+
