@@ -1,3 +1,4 @@
+
 import pandas as pd
 from src.etl.loader import load_all
 import os
@@ -18,7 +19,7 @@ def log_failure(table, company_id, year, rule_id, severity, message):
     })
 
 
-# DQ-01: Primary Key uniqueness check
+# DQ-01: Primary Key uniqueness
 def check_company_pk(companies):
     duplicates = companies[companies["id"].duplicated()]
 
@@ -33,7 +34,7 @@ def check_company_pk(companies):
         )
 
 
-# DQ-02: Composite PK uniqueness check
+# DQ-02: Composite PK uniqueness
 def check_composite_pk(df, table_name):
     if "company_id" in df.columns and "year" in df.columns:
         duplicates = df[df.duplicated(subset=["company_id", "year"])]
@@ -48,19 +49,25 @@ def check_composite_pk(df, table_name):
                 "Duplicate company_id-year combination"
             )
 
+
+# DQ-03: Foreign key integrity (optimized)
 def check_fk(df, companies, table_name):
     valid_ids = set(companies["id"])
 
-    for _, row in df.iterrows():
-        if row["company_id"] not in valid_ids:
-            log_failure(
-                table_name,
-                row["company_id"],
-                row["year"],
-                "DQ-03",
-                "CRITICAL",
-                "Foreign key violation"
-            )
+    invalid_rows = df[~df["company_id"].isin(valid_ids)]
+
+    for _, row in invalid_rows.iterrows():
+        log_failure(
+            table_name,
+            row["company_id"],
+            row["year"],
+            "DQ-03",
+            "CRITICAL",
+            "Foreign key violation"
+        )
+
+
+# DQ-04: Balance sheet check
 def check_balance_sheet(bs):
     for _, row in bs.iterrows():
         assets = row["total_assets"]
@@ -76,6 +83,9 @@ def check_balance_sheet(bs):
                     "WARNING",
                     "Balance sheet mismatch"
                 )
+
+
+# DQ-05: OPM cross-check
 def check_opm(pl):
     for _, row in pl.iterrows():
         sales = row["sales"]
@@ -94,57 +104,67 @@ def check_opm(pl):
                     "WARNING",
                     "OPM mismatch"
                 )
+
+
+# DQ-06: Positive sales
 def check_sales(pl):
     for _, row in pl.iterrows():
         sales = row["sales"]
 
-        if pd.notnull(sales):
-            if sales <= 0:
-                log_failure(
-                    "profitandloss",
-                    row["company_id"],
-                    row["year"],
-                    "DQ-06",
-                    "CRITICAL",
-                    "Sales must be positive"
-                )  
+        if pd.notnull(sales) and sales <= 0:
+            log_failure(
+                "profitandloss",
+                row["company_id"],
+                row["year"],
+                "DQ-06",
+                "CRITICAL",
+                "Sales must be positive"
+            )
+
+
 # Main validator runner
 def run_validations():
+    global validation_failures
+    validation_failures = []
+
+    print("Loading data...")
     data = load_all()
 
-    # Run DQ-01
+    print("Running DQ-01...")
     check_company_pk(data["companies"])
 
-    # Run DQ-02 only on relevant tables
+    print("Running DQ-02...")
     check_composite_pk(data["profitandloss"], "profitandloss")
     check_composite_pk(data["balancesheet"], "balancesheet")
     check_composite_pk(data["cashflow"], "cashflow")
 
+    print("Running DQ-03...")
     check_fk(data["profitandloss"], data["companies"], "profitandloss")
     check_fk(data["balancesheet"], data["companies"], "balancesheet")
     check_fk(data["cashflow"], data["companies"], "cashflow")
 
+    print("Running DQ-04...")
     check_balance_sheet(data["balancesheet"])
+
+    print("Running DQ-05...")
     check_opm(data["profitandloss"])
+
+    print("Running DQ-06...")
     check_sales(data["profitandloss"])
 
-    # Create DataFrame
+    # Create validation report
     df = pd.DataFrame(validation_failures)
 
-    # Output file path
-    output_path = "output/validation_failures.csv"
+    os.makedirs("outputs", exist_ok=True)
+    output_path = "outputs/validation_failures.csv"
 
-    # Remove old file if exists
-    if os.path.exists(output_path):
-        os.remove(output_path)
-
-    # Save new validation report
     df.to_csv(output_path, index=False)
 
-    print("Validation complete")
+    print("\nValidation complete")
     print(f"Failures found: {len(df)}")
+    print(f"Saved to: {output_path}")
 
 
-# Run file
+# Run validator
 if __name__ == "__main__":
     run_validations()
