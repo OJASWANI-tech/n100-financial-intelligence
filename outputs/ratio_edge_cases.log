@@ -1,0 +1,460 @@
+TCS | 2025 | ROE | ZERO_DIVISION | Returned None due to division by zero
+INFY | 2024 | ROCE | EXTREME_RATIO | Value too high: 1500
+WIPRO | 2023 | ROE | EXTREME_NEGATIVE | Value too low: -200
+RELIANCE | 2025 | EQUITY | NEGATIVE_BASE | Equity <= 0: -500
+TATASTEEL | 2025 | DATA | MISSING_FIELD | Missing fields: profit, equity
+ABB | Dec 2012 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ABB | Mar 2014 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ABB | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | NPM | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | OPM | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | ASSET_TURNOVER | ZERO_DIVISION | Returned None due to division by zero
+ADANIPOWER | Mar 2017 | ROE | EXTREME_NEGATIVE | Value too low: -205.79999999999998
+ADANIPOWER | Mar 2018 | ROE | EXTREME_NEGATIVE | Value too low: -236.55793025871765
+BAJAJ-AUTO | Mar 2013 | ICR | EXTREME_RATIO | Value too high: 3656.0
+BAJAJ-AUTO | Mar 2014 | ICR | EXTREME_RATIO | Value too high: 4163.0
+BAJAJ-AUTO | Mar 2016 | ICR | EXTREME_RATIO | Value too high: 4793.0
+BAJAJ-AUTO | Mar 2017 | ICR | EXTREME_RATIO | Value too high: 4429.0
+BAJAJ-AUTO | Mar 2018 | ICR | EXTREME_RATIO | Value too high: 4846.0
+BAJAJ-AUTO | Mar 2019 | ICR | EXTREME_RATIO | Value too high: 1299.5
+BAJAJ-AUTO | Mar 2020 | ICR | EXTREME_RATIO | Value too high: 1703.0
+BAJAJHLDNG | Mar 2013 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2014 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2017 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2018 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2019 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJFINANCE | Mar 2020 | ICR | EXTREME_RATIO | Value too high: 1017.67
+BAJFINANCE | Mar 2021 | ICR | EXTREME_RATIO | Value too high: 3613.0
+BAJFINANCE | Mar 2022 | ICR | EXTREME_NEGATIVE | Value too low: -698.82
+BAJFINANCE | Mar 2023 | ICR | EXTREME_NEGATIVE | Value too low: -2538.6
+BAJFINANCE | Mar 2024 | ICR | EXTREME_RATIO | Value too high: 2683.17
+BEL | Mar 2013 | ROE | EXTREME_RATIO | Value too high: 15183.333333333334
+BEL | Mar 2014 | ROE | EXTREME_RATIO | Value too high: 13600.0
+BEL | Mar 2015 | ROE | EXTREME_RATIO | Value too high: 17100.0
+BEL | Mar 2016 | ROE | EXTREME_RATIO | Value too high: 11141.666666666668
+BEL | Mar 2017 | ROE | EXTREME_RATIO | Value too high: 10153.333333333334
+BEL | Mar 2018 | ROE | EXTREME_RATIO | Value too high: 4616.129032258064
+BEL | Mar 2019 | ROE | EXTREME_RATIO | Value too high: 3851.020408163265
+BEL | Mar 2020 | ROE | EXTREME_RATIO | Value too high: 3318.181818181818
+BEL | Mar 2021 | ROE | EXTREME_RATIO | Value too high: 3559.322033898305
+BEL | Mar 2022 | ROE | EXTREME_RATIO | Value too high: 3478.260869565217
+BEL | Mar 2023 | ROE | EXTREME_RATIO | Value too high: 3981.333333333333
+BEL | Mar 2024 | ROE | EXTREME_RATIO | Value too high: 4744.047619047619
+BOSCHLTD | Dec 2013 | ICR | ZERO_DIVISION | Returned None due to division by zero
+CHOLAFIN | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+CHOLAFIN | Mar 2018 | ICR | ZERO_DIVISION | Returned None due to division by zero
+CHOLAFIN | Mar 2019 | ICR | EXTREME_RATIO | Value too high: 1632.0
+CHOLAFIN | Mar 2020 | ICR | ZERO_DIVISION | Returned None due to division by zero
+DIVISLAB | Mar 2021 | ICR | EXTREME_RATIO | Value too high: 1433.5
+DIVISLAB | Mar 2022 | ICR | EXTREME_RATIO | Value too high: 1942.5
+DIVISLAB | Mar 2023 | ICR | EXTREME_RATIO | Value too high: 1185.0
+HAL | Mar 2017 | ROE | EXTREME_RATIO | Value too high: 1966.9172932330828
+HAL | Mar 2018 | ROE | EXTREME_RATIO | Value too high: 1528.4615384615386
+HAL | Mar 2019 | ROE | EXTREME_RATIO | Value too high: 1763.9097744360904
+HAL | Mar 2020 | ROE | EXTREME_RATIO | Value too high: 2059.4202898550725
+HAL | Mar 2021 | ROE | EXTREME_RATIO | Value too high: 2249.3055555555557
+HAL | Mar 2022 | ROE | EXTREME_RATIO | Value too high: 3324.183006535948
+HAL | Mar 2023 | ROE | EXTREME_RATIO | Value too high: 3283.050847457627
+HAL | Mar 2024 | ROE | EXTREME_RATIO | Value too high: 3816.5829145728644
+HINDALCO | Mar 2015 | ICR | EXTREME_NEGATIVE | Value too low: -114.71
+HINDALCO | Mar 2021 | ICR | EXTREME_NEGATIVE | Value too low: -115.96
+ICICIGI | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ICICIGI | Mar 2017 | ICR | EXTREME_NEGATIVE | Value too low: -3300.5
+ICICIGI | Mar 2019 | ICR | EXTREME_NEGATIVE | Value too low: -4747.0
+ICICIPRULI | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2013 | ICR | EXTREME_RATIO | Value too high: 2307.6
+INFY | Mar 2014 | ICR | EXTREME_RATIO | Value too high: 1487.78
+INFY | Mar 2015 | ICR | EXTREME_RATIO | Value too high: 1240.25
+INFY | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2017 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2018 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2019 | ICR | ZERO_DIVISION | Returned None due to division by zero
+IRCTC | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+IRCTC | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+JIOFIN | Mar 2023 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2019 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2020 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2021 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2022 | ICR | ZERO_DIVISION | Returned None due to division by zero
+PNB | Mar 2016 | ROE | EXTREME_NEGATIVE | Value too low: -163.56011183597388
+PNB | Mar 2018 | ROE | EXTREME_NEGATIVE | Value too low: -184.36596133353632
+PNB | Mar 2019 | ROE | EXTREME_NEGATIVE | Value too low: -128.4465366509751
+SBILIFE | Mar 2020 | ICR | ZERO_DIVISION | Returned None due to division by zero
+SBILIFE | Mar 2021 | ICR | ZERO_DIVISION | Returned None due to division by zero
+SBILIFE | Mar 2022 | ICR | ZERO_DIVISION | Returned None due to division by zero
+TCS | Mar 2017 | ICR | EXTREME_RATIO | Value too high: 1009.72
+INDIGO | Mar 2013 | ROE | EXTREME_RATIO | Value too high: 17886.363636363636
+INDIGO | Mar 2014 | ROE | EXTREME_RATIO | Value too high: 10772.727272727272
+INDIGO | Mar 2015 | ROE | EXTREME_RATIO | Value too high: 4939.39393939394
+INDIGO | Mar 2016 | ROE | EXTREME_RATIO | Value too high: 1534.775888717156
+INDIGO | Mar 2017 | ROE | EXTREME_RATIO | Value too high: 1692.8571428571427
+INDIGO | Mar 2018 | ROE | EXTREME_RATIO | Value too high: 2242.0
+INDIGO | Mar 2020 | ROE | EXTREME_NEGATIVE | Value too low: -138.54748603351956
+INDIGO | Mar 2021 | ROE | EXTREME_NEGATIVE | Value too low: -1094.148936170213
+ABB | Dec 2012 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ABB | Mar 2014 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ABB | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | NPM | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | OPM | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | ASSET_TURNOVER | ZERO_DIVISION | Returned None due to division by zero
+ADANIPOWER | Mar 2017 | ROE | EXTREME_NEGATIVE | Value too low: -205.79999999999998
+ADANIPOWER | Mar 2018 | ROE | EXTREME_NEGATIVE | Value too low: -236.55793025871765
+BAJAJ-AUTO | Mar 2013 | ICR | EXTREME_RATIO | Value too high: 3656.0
+BAJAJ-AUTO | Mar 2014 | ICR | EXTREME_RATIO | Value too high: 4163.0
+BAJAJ-AUTO | Mar 2016 | ICR | EXTREME_RATIO | Value too high: 4793.0
+BAJAJ-AUTO | Mar 2017 | ICR | EXTREME_RATIO | Value too high: 4429.0
+BAJAJ-AUTO | Mar 2018 | ICR | EXTREME_RATIO | Value too high: 4846.0
+BAJAJ-AUTO | Mar 2019 | ICR | EXTREME_RATIO | Value too high: 1299.5
+BAJAJ-AUTO | Mar 2020 | ICR | EXTREME_RATIO | Value too high: 1703.0
+BAJAJHLDNG | Mar 2013 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2014 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2017 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2018 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2019 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJFINANCE | Mar 2020 | ICR | EXTREME_RATIO | Value too high: 1017.67
+BAJFINANCE | Mar 2021 | ICR | EXTREME_RATIO | Value too high: 3613.0
+BAJFINANCE | Mar 2022 | ICR | EXTREME_NEGATIVE | Value too low: -698.82
+BAJFINANCE | Mar 2023 | ICR | EXTREME_NEGATIVE | Value too low: -2538.6
+BAJFINANCE | Mar 2024 | ICR | EXTREME_RATIO | Value too high: 2683.17
+BEL | Mar 2013 | ROE | EXTREME_RATIO | Value too high: 15183.333333333334
+BEL | Mar 2014 | ROE | EXTREME_RATIO | Value too high: 13600.0
+BEL | Mar 2015 | ROE | EXTREME_RATIO | Value too high: 17100.0
+BEL | Mar 2016 | ROE | EXTREME_RATIO | Value too high: 11141.666666666668
+BEL | Mar 2017 | ROE | EXTREME_RATIO | Value too high: 10153.333333333334
+BEL | Mar 2018 | ROE | EXTREME_RATIO | Value too high: 4616.129032258064
+BEL | Mar 2019 | ROE | EXTREME_RATIO | Value too high: 3851.020408163265
+BEL | Mar 2020 | ROE | EXTREME_RATIO | Value too high: 3318.181818181818
+BEL | Mar 2021 | ROE | EXTREME_RATIO | Value too high: 3559.322033898305
+BEL | Mar 2022 | ROE | EXTREME_RATIO | Value too high: 3478.260869565217
+BEL | Mar 2023 | ROE | EXTREME_RATIO | Value too high: 3981.333333333333
+BEL | Mar 2024 | ROE | EXTREME_RATIO | Value too high: 4744.047619047619
+BOSCHLTD | Dec 2013 | ICR | ZERO_DIVISION | Returned None due to division by zero
+CHOLAFIN | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+CHOLAFIN | Mar 2018 | ICR | ZERO_DIVISION | Returned None due to division by zero
+CHOLAFIN | Mar 2019 | ICR | EXTREME_RATIO | Value too high: 1632.0
+CHOLAFIN | Mar 2020 | ICR | ZERO_DIVISION | Returned None due to division by zero
+DIVISLAB | Mar 2021 | ICR | EXTREME_RATIO | Value too high: 1433.5
+DIVISLAB | Mar 2022 | ICR | EXTREME_RATIO | Value too high: 1942.5
+DIVISLAB | Mar 2023 | ICR | EXTREME_RATIO | Value too high: 1185.0
+HAL | Mar 2017 | ROE | EXTREME_RATIO | Value too high: 1966.9172932330828
+HAL | Mar 2018 | ROE | EXTREME_RATIO | Value too high: 1528.4615384615386
+HAL | Mar 2019 | ROE | EXTREME_RATIO | Value too high: 1763.9097744360904
+HAL | Mar 2020 | ROE | EXTREME_RATIO | Value too high: 2059.4202898550725
+HAL | Mar 2021 | ROE | EXTREME_RATIO | Value too high: 2249.3055555555557
+HAL | Mar 2022 | ROE | EXTREME_RATIO | Value too high: 3324.183006535948
+HAL | Mar 2023 | ROE | EXTREME_RATIO | Value too high: 3283.050847457627
+HAL | Mar 2024 | ROE | EXTREME_RATIO | Value too high: 3816.5829145728644
+HINDALCO | Mar 2015 | ICR | EXTREME_NEGATIVE | Value too low: -114.71
+HINDALCO | Mar 2021 | ICR | EXTREME_NEGATIVE | Value too low: -115.96
+ICICIGI | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ICICIGI | Mar 2017 | ICR | EXTREME_NEGATIVE | Value too low: -3300.5
+ICICIGI | Mar 2019 | ICR | EXTREME_NEGATIVE | Value too low: -4747.0
+ICICIPRULI | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2013 | ICR | EXTREME_RATIO | Value too high: 2307.6
+INFY | Mar 2014 | ICR | EXTREME_RATIO | Value too high: 1487.78
+INFY | Mar 2015 | ICR | EXTREME_RATIO | Value too high: 1240.25
+INFY | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2017 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2018 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2019 | ICR | ZERO_DIVISION | Returned None due to division by zero
+IRCTC | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+IRCTC | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+JIOFIN | Mar 2023 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2019 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2020 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2021 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2022 | ICR | ZERO_DIVISION | Returned None due to division by zero
+PNB | Mar 2016 | ROE | EXTREME_NEGATIVE | Value too low: -163.56011183597388
+PNB | Mar 2018 | ROE | EXTREME_NEGATIVE | Value too low: -184.36596133353632
+PNB | Mar 2019 | ROE | EXTREME_NEGATIVE | Value too low: -128.4465366509751
+SBILIFE | Mar 2020 | ICR | ZERO_DIVISION | Returned None due to division by zero
+SBILIFE | Mar 2021 | ICR | ZERO_DIVISION | Returned None due to division by zero
+SBILIFE | Mar 2022 | ICR | ZERO_DIVISION | Returned None due to division by zero
+TCS | Mar 2017 | ICR | EXTREME_RATIO | Value too high: 1009.72
+INDIGO | Mar 2013 | ROE | EXTREME_RATIO | Value too high: 17886.363636363636
+INDIGO | Mar 2014 | ROE | EXTREME_RATIO | Value too high: 10772.727272727272
+INDIGO | Mar 2015 | ROE | EXTREME_RATIO | Value too high: 4939.39393939394
+INDIGO | Mar 2016 | ROE | EXTREME_RATIO | Value too high: 1534.775888717156
+INDIGO | Mar 2017 | ROE | EXTREME_RATIO | Value too high: 1692.8571428571427
+INDIGO | Mar 2018 | ROE | EXTREME_RATIO | Value too high: 2242.0
+INDIGO | Mar 2020 | ROE | EXTREME_NEGATIVE | Value too low: -138.54748603351956
+INDIGO | Mar 2021 | ROE | EXTREME_NEGATIVE | Value too low: -1094.148936170213
+ABB | Dec 2012 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ABB | Mar 2014 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ABB | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | NPM | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | OPM | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | ASSET_TURNOVER | ZERO_DIVISION | Returned None due to division by zero
+ADANIPOWER | Mar 2017 | ROE | EXTREME_NEGATIVE | Value too low: -205.79999999999998
+ADANIPOWER | Mar 2018 | ROE | EXTREME_NEGATIVE | Value too low: -236.55793025871765
+BAJAJ-AUTO | Mar 2013 | ICR | EXTREME_RATIO | Value too high: 3656.0
+BAJAJ-AUTO | Mar 2014 | ICR | EXTREME_RATIO | Value too high: 4163.0
+BAJAJ-AUTO | Mar 2016 | ICR | EXTREME_RATIO | Value too high: 4793.0
+BAJAJ-AUTO | Mar 2017 | ICR | EXTREME_RATIO | Value too high: 4429.0
+BAJAJ-AUTO | Mar 2018 | ICR | EXTREME_RATIO | Value too high: 4846.0
+BAJAJ-AUTO | Mar 2019 | ICR | EXTREME_RATIO | Value too high: 1299.5
+BAJAJ-AUTO | Mar 2020 | ICR | EXTREME_RATIO | Value too high: 1703.0
+BAJAJHLDNG | Mar 2013 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2014 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2017 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2018 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2019 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJFINANCE | Mar 2020 | ICR | EXTREME_RATIO | Value too high: 1017.67
+BAJFINANCE | Mar 2021 | ICR | EXTREME_RATIO | Value too high: 3613.0
+BAJFINANCE | Mar 2022 | ICR | EXTREME_NEGATIVE | Value too low: -698.82
+BAJFINANCE | Mar 2023 | ICR | EXTREME_NEGATIVE | Value too low: -2538.6
+BAJFINANCE | Mar 2024 | ICR | EXTREME_RATIO | Value too high: 2683.17
+BEL | Mar 2013 | ROE | EXTREME_RATIO | Value too high: 15183.333333333334
+BEL | Mar 2014 | ROE | EXTREME_RATIO | Value too high: 13600.0
+BEL | Mar 2015 | ROE | EXTREME_RATIO | Value too high: 17100.0
+BEL | Mar 2016 | ROE | EXTREME_RATIO | Value too high: 11141.666666666668
+BEL | Mar 2017 | ROE | EXTREME_RATIO | Value too high: 10153.333333333334
+BEL | Mar 2018 | ROE | EXTREME_RATIO | Value too high: 4616.129032258064
+BEL | Mar 2019 | ROE | EXTREME_RATIO | Value too high: 3851.020408163265
+BEL | Mar 2020 | ROE | EXTREME_RATIO | Value too high: 3318.181818181818
+BEL | Mar 2021 | ROE | EXTREME_RATIO | Value too high: 3559.322033898305
+BEL | Mar 2022 | ROE | EXTREME_RATIO | Value too high: 3478.260869565217
+BEL | Mar 2023 | ROE | EXTREME_RATIO | Value too high: 3981.333333333333
+BEL | Mar 2024 | ROE | EXTREME_RATIO | Value too high: 4744.047619047619
+BOSCHLTD | Dec 2013 | ICR | ZERO_DIVISION | Returned None due to division by zero
+CHOLAFIN | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+CHOLAFIN | Mar 2018 | ICR | ZERO_DIVISION | Returned None due to division by zero
+CHOLAFIN | Mar 2019 | ICR | EXTREME_RATIO | Value too high: 1632.0
+CHOLAFIN | Mar 2020 | ICR | ZERO_DIVISION | Returned None due to division by zero
+DIVISLAB | Mar 2021 | ICR | EXTREME_RATIO | Value too high: 1433.5
+DIVISLAB | Mar 2022 | ICR | EXTREME_RATIO | Value too high: 1942.5
+DIVISLAB | Mar 2023 | ICR | EXTREME_RATIO | Value too high: 1185.0
+HAL | Mar 2017 | ROE | EXTREME_RATIO | Value too high: 1966.9172932330828
+HAL | Mar 2018 | ROE | EXTREME_RATIO | Value too high: 1528.4615384615386
+HAL | Mar 2019 | ROE | EXTREME_RATIO | Value too high: 1763.9097744360904
+HAL | Mar 2020 | ROE | EXTREME_RATIO | Value too high: 2059.4202898550725
+HAL | Mar 2021 | ROE | EXTREME_RATIO | Value too high: 2249.3055555555557
+HAL | Mar 2022 | ROE | EXTREME_RATIO | Value too high: 3324.183006535948
+HAL | Mar 2023 | ROE | EXTREME_RATIO | Value too high: 3283.050847457627
+HAL | Mar 2024 | ROE | EXTREME_RATIO | Value too high: 3816.5829145728644
+HINDALCO | Mar 2015 | ICR | EXTREME_NEGATIVE | Value too low: -114.71
+HINDALCO | Mar 2021 | ICR | EXTREME_NEGATIVE | Value too low: -115.96
+ICICIGI | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ICICIGI | Mar 2017 | ICR | EXTREME_NEGATIVE | Value too low: -3300.5
+ICICIGI | Mar 2019 | ICR | EXTREME_NEGATIVE | Value too low: -4747.0
+ICICIPRULI | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2013 | ICR | EXTREME_RATIO | Value too high: 2307.6
+INFY | Mar 2014 | ICR | EXTREME_RATIO | Value too high: 1487.78
+INFY | Mar 2015 | ICR | EXTREME_RATIO | Value too high: 1240.25
+INFY | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2017 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2018 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2019 | ICR | ZERO_DIVISION | Returned None due to division by zero
+IRCTC | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+IRCTC | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+JIOFIN | Mar 2023 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2019 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2020 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2021 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2022 | ICR | ZERO_DIVISION | Returned None due to division by zero
+PNB | Mar 2016 | ROE | EXTREME_NEGATIVE | Value too low: -163.56011183597388
+PNB | Mar 2018 | ROE | EXTREME_NEGATIVE | Value too low: -184.36596133353632
+PNB | Mar 2019 | ROE | EXTREME_NEGATIVE | Value too low: -128.4465366509751
+SBILIFE | Mar 2020 | ICR | ZERO_DIVISION | Returned None due to division by zero
+SBILIFE | Mar 2021 | ICR | ZERO_DIVISION | Returned None due to division by zero
+SBILIFE | Mar 2022 | ICR | ZERO_DIVISION | Returned None due to division by zero
+TCS | Mar 2017 | ICR | EXTREME_RATIO | Value too high: 1009.72
+INDIGO | Mar 2013 | ROE | EXTREME_RATIO | Value too high: 17886.363636363636
+INDIGO | Mar 2014 | ROE | EXTREME_RATIO | Value too high: 10772.727272727272
+INDIGO | Mar 2015 | ROE | EXTREME_RATIO | Value too high: 4939.39393939394
+INDIGO | Mar 2016 | ROE | EXTREME_RATIO | Value too high: 1534.775888717156
+INDIGO | Mar 2017 | ROE | EXTREME_RATIO | Value too high: 1692.8571428571427
+INDIGO | Mar 2018 | ROE | EXTREME_RATIO | Value too high: 2242.0
+INDIGO | Mar 2020 | ROE | EXTREME_NEGATIVE | Value too low: -138.54748603351956
+INDIGO | Mar 2021 | ROE | EXTREME_NEGATIVE | Value too low: -1094.148936170213
+ABB | Dec 2012 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ABB | Mar 2014 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ABB | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | NPM | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | OPM | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | ASSET_TURNOVER | ZERO_DIVISION | Returned None due to division by zero
+ADANIPOWER | Mar 2017 | ROE | EXTREME_NEGATIVE | Value too low: -205.79999999999998
+ADANIPOWER | Mar 2018 | ROE | EXTREME_NEGATIVE | Value too low: -236.55793025871765
+BAJAJ-AUTO | Mar 2013 | ICR | EXTREME_RATIO | Value too high: 3656.0
+BAJAJ-AUTO | Mar 2014 | ICR | EXTREME_RATIO | Value too high: 4163.0
+BAJAJ-AUTO | Mar 2016 | ICR | EXTREME_RATIO | Value too high: 4793.0
+BAJAJ-AUTO | Mar 2017 | ICR | EXTREME_RATIO | Value too high: 4429.0
+BAJAJ-AUTO | Mar 2018 | ICR | EXTREME_RATIO | Value too high: 4846.0
+BAJAJ-AUTO | Mar 2019 | ICR | EXTREME_RATIO | Value too high: 1299.5
+BAJAJ-AUTO | Mar 2020 | ICR | EXTREME_RATIO | Value too high: 1703.0
+BAJAJHLDNG | Mar 2013 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2014 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2017 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2018 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2019 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJFINANCE | Mar 2020 | ICR | EXTREME_RATIO | Value too high: 1017.67
+BAJFINANCE | Mar 2021 | ICR | EXTREME_RATIO | Value too high: 3613.0
+BAJFINANCE | Mar 2022 | ICR | EXTREME_NEGATIVE | Value too low: -698.82
+BAJFINANCE | Mar 2023 | ICR | EXTREME_NEGATIVE | Value too low: -2538.6
+BAJFINANCE | Mar 2024 | ICR | EXTREME_RATIO | Value too high: 2683.17
+BEL | Mar 2013 | ROE | EXTREME_RATIO | Value too high: 15183.333333333334
+BEL | Mar 2014 | ROE | EXTREME_RATIO | Value too high: 13600.0
+BEL | Mar 2015 | ROE | EXTREME_RATIO | Value too high: 17100.0
+BEL | Mar 2016 | ROE | EXTREME_RATIO | Value too high: 11141.666666666668
+BEL | Mar 2017 | ROE | EXTREME_RATIO | Value too high: 10153.333333333334
+BEL | Mar 2018 | ROE | EXTREME_RATIO | Value too high: 4616.129032258064
+BEL | Mar 2019 | ROE | EXTREME_RATIO | Value too high: 3851.020408163265
+BEL | Mar 2020 | ROE | EXTREME_RATIO | Value too high: 3318.181818181818
+BEL | Mar 2021 | ROE | EXTREME_RATIO | Value too high: 3559.322033898305
+BEL | Mar 2022 | ROE | EXTREME_RATIO | Value too high: 3478.260869565217
+BEL | Mar 2023 | ROE | EXTREME_RATIO | Value too high: 3981.333333333333
+BEL | Mar 2024 | ROE | EXTREME_RATIO | Value too high: 4744.047619047619
+BOSCHLTD | Dec 2013 | ICR | ZERO_DIVISION | Returned None due to division by zero
+CHOLAFIN | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+CHOLAFIN | Mar 2018 | ICR | ZERO_DIVISION | Returned None due to division by zero
+CHOLAFIN | Mar 2019 | ICR | EXTREME_RATIO | Value too high: 1632.0
+CHOLAFIN | Mar 2020 | ICR | ZERO_DIVISION | Returned None due to division by zero
+DIVISLAB | Mar 2021 | ICR | EXTREME_RATIO | Value too high: 1433.5
+DIVISLAB | Mar 2022 | ICR | EXTREME_RATIO | Value too high: 1942.5
+DIVISLAB | Mar 2023 | ICR | EXTREME_RATIO | Value too high: 1185.0
+HAL | Mar 2017 | ROE | EXTREME_RATIO | Value too high: 1966.9172932330828
+HAL | Mar 2018 | ROE | EXTREME_RATIO | Value too high: 1528.4615384615386
+HAL | Mar 2019 | ROE | EXTREME_RATIO | Value too high: 1763.9097744360904
+HAL | Mar 2020 | ROE | EXTREME_RATIO | Value too high: 2059.4202898550725
+HAL | Mar 2021 | ROE | EXTREME_RATIO | Value too high: 2249.3055555555557
+HAL | Mar 2022 | ROE | EXTREME_RATIO | Value too high: 3324.183006535948
+HAL | Mar 2023 | ROE | EXTREME_RATIO | Value too high: 3283.050847457627
+HAL | Mar 2024 | ROE | EXTREME_RATIO | Value too high: 3816.5829145728644
+HINDALCO | Mar 2015 | ICR | EXTREME_NEGATIVE | Value too low: -114.71
+HINDALCO | Mar 2021 | ICR | EXTREME_NEGATIVE | Value too low: -115.96
+ICICIGI | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ICICIGI | Mar 2017 | ICR | EXTREME_NEGATIVE | Value too low: -3300.5
+ICICIGI | Mar 2019 | ICR | EXTREME_NEGATIVE | Value too low: -4747.0
+ICICIPRULI | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2013 | ICR | EXTREME_RATIO | Value too high: 2307.6
+INFY | Mar 2014 | ICR | EXTREME_RATIO | Value too high: 1487.78
+INFY | Mar 2015 | ICR | EXTREME_RATIO | Value too high: 1240.25
+INFY | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2017 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2018 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2019 | ICR | ZERO_DIVISION | Returned None due to division by zero
+IRCTC | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+IRCTC | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+JIOFIN | Mar 2023 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2019 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2020 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2021 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2022 | ICR | ZERO_DIVISION | Returned None due to division by zero
+PNB | Mar 2016 | ROE | EXTREME_NEGATIVE | Value too low: -163.56011183597388
+PNB | Mar 2018 | ROE | EXTREME_NEGATIVE | Value too low: -184.36596133353632
+PNB | Mar 2019 | ROE | EXTREME_NEGATIVE | Value too low: -128.4465366509751
+SBILIFE | Mar 2020 | ICR | ZERO_DIVISION | Returned None due to division by zero
+SBILIFE | Mar 2021 | ICR | ZERO_DIVISION | Returned None due to division by zero
+SBILIFE | Mar 2022 | ICR | ZERO_DIVISION | Returned None due to division by zero
+TCS | Mar 2017 | ICR | EXTREME_RATIO | Value too high: 1009.72
+INDIGO | Mar 2013 | ROE | EXTREME_RATIO | Value too high: 17886.363636363636
+INDIGO | Mar 2014 | ROE | EXTREME_RATIO | Value too high: 10772.727272727272
+INDIGO | Mar 2015 | ROE | EXTREME_RATIO | Value too high: 4939.39393939394
+INDIGO | Mar 2016 | ROE | EXTREME_RATIO | Value too high: 1534.775888717156
+INDIGO | Mar 2017 | ROE | EXTREME_RATIO | Value too high: 1692.8571428571427
+INDIGO | Mar 2018 | ROE | EXTREME_RATIO | Value too high: 2242.0
+INDIGO | Mar 2020 | ROE | EXTREME_NEGATIVE | Value too low: -138.54748603351956
+INDIGO | Mar 2021 | ROE | EXTREME_NEGATIVE | Value too low: -1094.148936170213
+ABB | Dec 2012 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ABB | Mar 2014 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ABB | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | NPM | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | OPM | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ADANIENSOL | Mar 2014 | ASSET_TURNOVER | ZERO_DIVISION | Returned None due to division by zero
+ADANIPOWER | Mar 2017 | ROE | EXTREME_NEGATIVE | Value too low: -205.79999999999998
+ADANIPOWER | Mar 2018 | ROE | EXTREME_NEGATIVE | Value too low: -236.55793025871765
+BAJAJ-AUTO | Mar 2013 | ICR | EXTREME_RATIO | Value too high: 3656.0
+BAJAJ-AUTO | Mar 2014 | ICR | EXTREME_RATIO | Value too high: 4163.0
+BAJAJ-AUTO | Mar 2016 | ICR | EXTREME_RATIO | Value too high: 4793.0
+BAJAJ-AUTO | Mar 2017 | ICR | EXTREME_RATIO | Value too high: 4429.0
+BAJAJ-AUTO | Mar 2018 | ICR | EXTREME_RATIO | Value too high: 4846.0
+BAJAJ-AUTO | Mar 2019 | ICR | EXTREME_RATIO | Value too high: 1299.5
+BAJAJ-AUTO | Mar 2020 | ICR | EXTREME_RATIO | Value too high: 1703.0
+BAJAJHLDNG | Mar 2013 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2014 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2017 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2018 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJAJHLDNG | Mar 2019 | ICR | ZERO_DIVISION | Returned None due to division by zero
+BAJFINANCE | Mar 2020 | ICR | EXTREME_RATIO | Value too high: 1017.67
+BAJFINANCE | Mar 2021 | ICR | EXTREME_RATIO | Value too high: 3613.0
+BAJFINANCE | Mar 2022 | ICR | EXTREME_NEGATIVE | Value too low: -698.82
+BAJFINANCE | Mar 2023 | ICR | EXTREME_NEGATIVE | Value too low: -2538.6
+BAJFINANCE | Mar 2024 | ICR | EXTREME_RATIO | Value too high: 2683.17
+BEL | Mar 2013 | ROE | EXTREME_RATIO | Value too high: 15183.333333333334
+BEL | Mar 2014 | ROE | EXTREME_RATIO | Value too high: 13600.0
+BEL | Mar 2015 | ROE | EXTREME_RATIO | Value too high: 17100.0
+BEL | Mar 2016 | ROE | EXTREME_RATIO | Value too high: 11141.666666666668
+BEL | Mar 2017 | ROE | EXTREME_RATIO | Value too high: 10153.333333333334
+BEL | Mar 2018 | ROE | EXTREME_RATIO | Value too high: 4616.129032258064
+BEL | Mar 2019 | ROE | EXTREME_RATIO | Value too high: 3851.020408163265
+BEL | Mar 2020 | ROE | EXTREME_RATIO | Value too high: 3318.181818181818
+BEL | Mar 2021 | ROE | EXTREME_RATIO | Value too high: 3559.322033898305
+BEL | Mar 2022 | ROE | EXTREME_RATIO | Value too high: 3478.260869565217
+BEL | Mar 2023 | ROE | EXTREME_RATIO | Value too high: 3981.333333333333
+BEL | Mar 2024 | ROE | EXTREME_RATIO | Value too high: 4744.047619047619
+BOSCHLTD | Dec 2013 | ICR | ZERO_DIVISION | Returned None due to division by zero
+CHOLAFIN | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+CHOLAFIN | Mar 2018 | ICR | ZERO_DIVISION | Returned None due to division by zero
+CHOLAFIN | Mar 2019 | ICR | EXTREME_RATIO | Value too high: 1632.0
+CHOLAFIN | Mar 2020 | ICR | ZERO_DIVISION | Returned None due to division by zero
+DIVISLAB | Mar 2021 | ICR | EXTREME_RATIO | Value too high: 1433.5
+DIVISLAB | Mar 2022 | ICR | EXTREME_RATIO | Value too high: 1942.5
+DIVISLAB | Mar 2023 | ICR | EXTREME_RATIO | Value too high: 1185.0
+HAL | Mar 2013 | ROE | EXTREME_RATIO | Value too high: 2497.5
+HAL | Mar 2014 | ROE | EXTREME_RATIO | Value too high: 2024.812030075188
+HAL | Mar 2015 | ROE | EXTREME_RATIO | Value too high: 1836.9230769230767
+HAL | Mar 2016 | ROE | EXTREME_RATIO | Value too high: 1502.2556390977445
+HAL | Mar 2017 | ROE | EXTREME_RATIO | Value too high: 1895.6521739130433
+HAL | Mar 2018 | ROE | EXTREME_RATIO | Value too high: 1379.861111111111
+HAL | Mar 2019 | ROE | EXTREME_RATIO | Value too high: 1533.3333333333335
+HAL | Mar 2020 | ROE | EXTREME_RATIO | Value too high: 1605.6497175141242
+HINDALCO | Mar 2015 | ICR | EXTREME_NEGATIVE | Value too low: -114.71
+HINDALCO | Mar 2021 | ICR | EXTREME_NEGATIVE | Value too low: -115.96
+ICICIGI | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+ICICIGI | Mar 2017 | ICR | EXTREME_NEGATIVE | Value too low: -3300.5
+ICICIGI | Mar 2019 | ICR | EXTREME_NEGATIVE | Value too low: -4747.0
+ICICIPRULI | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INDIGO | Mar 2013 | ROE | EXTREME_RATIO | Value too high: 17886.363636363636
+INDIGO | Mar 2014 | ROE | EXTREME_RATIO | Value too high: 10772.727272727272
+INDIGO | Mar 2015 | ROE | EXTREME_RATIO | Value too high: 4939.39393939394
+INDIGO | Mar 2016 | ROE | EXTREME_RATIO | Value too high: 1534.775888717156
+INDIGO | Mar 2017 | ROE | EXTREME_RATIO | Value too high: 1692.8571428571427
+INDIGO | Mar 2018 | ROE | EXTREME_RATIO | Value too high: 2242.0
+INDIGO | Mar 2020 | ROE | EXTREME_NEGATIVE | Value too low: -138.54748603351956
+INDIGO | Mar 2021 | ROE | EXTREME_NEGATIVE | Value too low: -1094.148936170213
+INFY | Mar 2013 | ICR | EXTREME_RATIO | Value too high: 2307.6
+INFY | Mar 2014 | ICR | EXTREME_RATIO | Value too high: 1487.78
+INFY | Mar 2015 | ICR | EXTREME_RATIO | Value too high: 1240.25
+INFY | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2017 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2018 | ICR | ZERO_DIVISION | Returned None due to division by zero
+INFY | Mar 2019 | ICR | ZERO_DIVISION | Returned None due to division by zero
+IRCTC | Mar 2015 | ICR | ZERO_DIVISION | Returned None due to division by zero
+IRCTC | Mar 2016 | ICR | ZERO_DIVISION | Returned None due to division by zero
+JIOFIN | Mar 2023 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2019 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2020 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2021 | ICR | ZERO_DIVISION | Returned None due to division by zero
+LICI | Mar 2022 | ICR | ZERO_DIVISION | Returned None due to division by zero
+PNB | Mar 2016 | ROE | EXTREME_NEGATIVE | Value too low: -567.9611650485436
+PNB | Mar 2018 | ROE | EXTREME_NEGATIVE | Value too low: -1296.6809421841542
+PNB | Mar 2019 | ROE | EXTREME_NEGATIVE | Value too low: -1022.4839400428266
+SBILIFE | Mar 2020 | ICR | ZERO_DIVISION | Returned None due to division by zero
+SBILIFE | Mar 2021 | ICR | ZERO_DIVISION | Returned None due to division by zero
+SBILIFE | Mar 2022 | ICR | ZERO_DIVISION | Returned None due to division by zero
+TCS | Mar 2017 | ICR | EXTREME_RATIO | Value too high: 1009.72

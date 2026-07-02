@@ -111,3 +111,32 @@ def asset_turnover(sales, total_assets):
         return None
 
     return sales / total_assets
+
+def interest_coverage(operating_profit, interest):
+    if interest == 0:
+        return None
+    return round(operating_profit / interest, 2)
+
+
+def asset_turnover(sales, total_assets):
+    if total_assets == 0:
+        return None
+    return round(sales / total_assets, 2)
+
+
+def debt_to_equity(total_debt, equity):
+    if equity == 0:
+        return None
+    return round(total_debt / equity, 2)
+def earnings_per_share(net_profit, shares_outstanding):
+    if shares_outstanding == 0:
+        return None
+    return round(net_profit / shares_outstanding, 2)
+def book_value_per_share(equity_capital, reserves, shares_outstanding):
+    if shares_outstanding == 0:
+        return None
+    return round((equity_capital + reserves) / shares_outstanding, 2)
+def dividend_payout_ratio(dividend_paid, net_profit):
+    if net_profit == 0:
+        return None
+    return round((dividend_paid / net_profit) * 100, 2)
